@@ -1,0 +1,303 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+}
+
+a.active_class
+{
+  border-bottom: 2px solid white;
+}
+.navbar{
+  background-color: #82aeca;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+
+  
+}
+.company_name
+{
+  margin-left: 1.875rem;
+  margin-right: 1.875rem;
+  text-transform: capitalize;
+  font-family: 'Monoton', cursive;
+  color: white;
+  font-size: 50px;}
+.logo
+{
+  margin: 0.625rem 0.313rem;
+}
+
+.nav_link{
+margin: 1.25rem 1.25rem;
+
+}
+.home
+{
+  background-color: #50a1d5;
+  height:39.375rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.home_container
+{
+  color: white;
+  text-transform: capitalize;
+  font-size: 50px;
+
+  
+  font-family: 'Audiowide', cursive;
+}
+.get_started
+{
+  border-radius: 30px;
+  width: 12.5rem;
+  height: 3.125rem;
+  background-color: violet;
+  text-align: center;
+  color: white;
+  border-color: violet;
+  font-size: 20px;
+  
+}
+a :hover
+{
+  background-color: tomato;
+}
+.footer
+{
+  background-color: rgb(66, 60, 60);
+  height: 5.938rem;
+  width: 100%;
+}
+.background_color
+{
+  background-color: turquoise;
+  margin-top: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.write_cv
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(0,0,0,0.45);
+  box-shadow: rgba(0,0,0,0.13);
+  height: unset;
+  width: 500px;
+}
+.write
+{
+  font-family: 'Audiowide', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #c5ecfd;
+  text-transform: uppercase;
+
+}
+.write_cv input{
+  margin-top: 50px;
+  width: 355px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #c5ecfd;
+  color: #c5ecfd;
+  
+  
+}
+/* colour of placeholder in chrome */
+::-webkit-input-placeholder
+{
+  color: #c5ecfd ;
+  text-align:start;
+  font-size: 16px;
+}
+/* color of placeholder in mozila */
+:-moz-placeholder
+{
+  color:  #c5ecfd;
+}
+
+.confirm
+{
+  margin-top: 30px;
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(205, 97, 219);
+  text-align: center;
+  color: white;
+ 
+  font-size: 20px;
+}
+.confirm:hover
+{
+  background: tomato;
+}
+.contact_bgColor
+{
+  background-color: turquoise;
+  height: 630px;
+  margin-top: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.contact_input
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(0,0,0,0.45);
+  box-shadow: rgba(0,0,0,0.13);
+
+  width: 500px;
+}
+.contact_contact
+{
+  color: #c5ecfd;
+  font-size:40px;
+  font-family: 'Audiowide', cursive;
+}
+.contact_input input
+{
+  margin-top: 50px;
+  width: 355px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #c5ecfd;
+  color: #c5ecfd;
+  
+}
+.send
+{
+  margin-top: 30px;
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(205, 97, 219);
+  text-align: center;
+  color: white;
+  
+  font-size: 20px;
+}
+.send:hover
+{
+  background:tomato;
+}
+.add_button
+{
+  margin-left: 10px;
+  border-radius: 30px;
+  width: 90px;
+  text-align: center;
+  background-color: aqua;
+  color:black;
+}
+.add_button:hover
+{
+  background:white;
+}
+
+.pdf_element
+{
+  font-weight: bold;
+  font-size: 25px;
+  text-align:justify;
+  text-justify: distribute;
+}
+
+@media (max-width: 990px) {
+  .company_name
+{
+  font-size: 30px;
+}
+  
+}
+
+@media (max-width: 600px)
+{
+  
+.navbar
+{
+  width:800px
+}
+.company_name
+{
+  font-size: 40px;
+}
+.home
+{
+  width:800px;
+  height: 1800px;
+
+}
+.home_container
+{
+  margin-left: 50px;
+}
+.footer
+{
+  width: 800px;
+}
+.background_color
+{
+  width: 800px;
+  height: 1800px;
+}
+.contact_bgColor
+{
+  width: 800px;
+
+height: 1400px;}
+.contact_input
+{
+  margin-top: 100px;
+  height: 800px;
+}
+.write_cv
+{
+  margin-top: 50px;
+}
+}
+@media (max-width: 480px)
+{
+
+  .home
+{
+  width:800px;
+  height: 1500px;
+
+}
+}
